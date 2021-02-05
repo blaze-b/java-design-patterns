@@ -191,7 +191,22 @@ to understand
 - Template Patterns
 - Observer-Observable
 - Proxy
-       
+
+
+### Singleton design pattern
+
+- The Singleton pattern restricts the instantiation of a class to single object
+- This is used when one object is needed to coordinate the actions across the system
+- When to use:
+   - Application needs one and only instance of an object
+   - Additionally, lazy initialization and global access are necessary and state of objects needs to be shared
+
+### Prototype design pattern
+
+- It is a creational design pattern and is used when the type of objects to create is determined by a 
+prototypical instance, which is cloned to produce new objects.
+- When to use: When application needs to create a number of instances of a class, which has 
+almost same state and when there is need to avoid creating objects using new keyword
   
 
 
