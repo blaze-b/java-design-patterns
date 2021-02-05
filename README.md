@@ -68,6 +68,133 @@ could be related to object creation, object communication, class structuring or 
 
 - Give you an extra edge for job and promotion
 
+### Anti pattern of Software
+
+- Spaghetti Code
+
+- Cut-and-Paste Programming
+
+## Design Patterns are language independent
+
+### Object Inheritance
+
+- It is a mechanism in which one object acquires all the properties and behaviours of the 
+parent object
+  
+- It allows programmers to create classes that are built upon existing classes, to specify 
+a new implementation to maintain the same behaviour to reuse code
+  
+- Inheritance causes issues which coding as changes in the base classes will require more 
+  QA testing
+  
+### Code Reusability
+
+- Is your code dry or wet?
+
+  - DRY - Don't Repeat Yourself is a software development principle, the main aim
+of which is to reduce repetition of code
+    
+  - WET - Write Every Time is a cheeky abbreviation to mean the opposite, that is, code
+that doesn't adhere to DRY Principle
+    
+  - Bad Software Characteristics - Rigidity, Fragility, Immobility
+  
+  - Software Design Principles
+      
+     - `S.O.L.I.D` acronym
+     - It stands for:
+       - `S` Single responsibility principle
+       - `O` Open Closed Principle
+       - `L` Liskov substitution principle
+       - `I` Interface segregation principle
+       - `D` Dependency inversion principle
+    
+
+### Cyclomatic Complexity
+
+- Lower the program's cyclomatic complexity, lower the risk to modify and easier
+to understand
+  
+- Formula - `E-N+2*P`
+  - `E` = number of edges in the flow graph
+  - `N` = number of nodes in the flow graph
+  - `P` = number of nodes that have exit points
+    
+### Tight Coupling
+
+- It is when a group of classes is highly dependent on a one another
+
+- Minor changes in one class creates a ripple effect and causes modification in too many changes
+    
+- Interface helps in decoupling 
+
+### Recognise the pattern of problems ans design solutions 
+
+- Be a software doctor
+
+- Understand the memory issue
+
+- Recognise the pattern of problems and design solutions around it
+
+### Design Patterns Categorization
+
+- What is an Object ?
+  
+  - An object consist of:
+    
+    - `State` represented by attributes or properties of an object
+    - `Behaviour` represented by methods of an object
+    - `Identity` gives a unique identifier to an object also called as reference object
+    
+- Philosophy behind Categorization
+
+  - Object is created from a class which has certain behaviour and is structured in certain way to communicate:
+    - Creational Patterns,
+       - It defines the best possible way to instantiate an object while hiding the creation logic
+       - Types:
+          - Builder
+          - Singleton
+          - Factory Method
+          - Abstract Method
+          - Prototype
+    - Structural Patterns,
+       - It describes how objects and classes can be combined to form larger structures
+       - Types:
+          - Adaptor
+          - Bridge
+          - Composite
+          - Decorator
+          - Facade
+          - Proxy
+      
+     - Behavioral Patterns,
+         - Patterns specifically concerned with communication (interaction) between the objects. The interactions
+    between the objects should be such that they are talking to each other and still are loosely coupled,
+         - Types
+           - Strategy
+           - Command
+           - Interpreter
+           - Iterator
+           - Chain of Responsibility
+           - Mediator
+           - Memento
+           - Observer
+           - State
+           - Template
+           - Visitor
+    
+
+### Design Patterns used in the Spring Framework
+
+- Singleton Pattern
+- Factory Pattern
+- Template Patterns
+- Observer-Observable
+- Proxy
+       
+  
+
+
 
 
 
