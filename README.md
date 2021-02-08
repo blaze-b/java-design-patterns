@@ -208,6 +208,14 @@ prototypical instance, which is cloned to produce new objects.
 - When to use: When application needs to create a number of instances of a class, which has 
 almost same state and when there is need to avoid creating objects using new keyword
   
+### Builder design pattern
+
+- It hides the complexity of object
+- It encapsulates creating and assembling the parts of a complex object in a separate Builder Object
+- When to use: Applications need to create complex objects of different types in multiple steps and expect
+a final object as outcome
+- 
+  
 
 
 
