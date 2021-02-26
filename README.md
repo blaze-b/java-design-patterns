@@ -222,7 +222,18 @@ to be returned
   
 ### Abstract Factory Design Pattern
 
-- 
+- It is also called as factory of factories, and it works around a super-factory which creates
+other factories
+- An interface is responsible for creating a factory of related objects without explicitly specifying
+their classes
+- Intention:
+  - It provides an interface for creating  families of related or dependent objects without specifying 
+    their concrete classes
+  - It helps in the encapsulation
+- When to use: When application needs a level of indirection that abstracts the creation of families of 
+related or dependent objects without directly specifying their concrete class
+
+
 
 
 
