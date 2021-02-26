@@ -1,4 +1,7 @@
-package com.mclebtec.java.prototype.statues;
+package com.mclebtec.java.prototype;
+
+import com.mclebtec.java.prototype.statues.JesusStatues;
+import com.mclebtec.java.prototype.statues.StatueMold;
 
 import java.util.Scanner;
 

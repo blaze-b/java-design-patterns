@@ -1,4 +1,7 @@
-package com.mclebtec.java.prototype.bonus;
+package com.mclebtec.java.prototype;
+
+import com.mclebtec.java.prototype.bonus.Cell;
+import com.mclebtec.java.prototype.bonus.SpecimenCache;
 
 import java.util.Scanner;
 
