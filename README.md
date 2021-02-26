@@ -214,7 +214,11 @@ almost same state and when there is need to avoid creating objects using new key
 - It encapsulates creating and assembling the parts of a complex object in a separate Builder Object
 - When to use: Applications need to create complex objects of different types in multiple steps and expect
 a final object as outcome
-- 
+
+
+### Factory design pattern
+
+- It exposes the object without exposing the creation logic to the client and refer to a newly created 
   
 
 
