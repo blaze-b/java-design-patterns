@@ -45,3 +45,14 @@ to "has a relation"
 - When to use: To make functionalities of concrete classes independent of interface implementor
 classes,both types of classes can be altered structurally without affecting each other
   
+### Composite Design Pattern
+
+- Composite design pattern composes objects in terms of a `tree structure` to represent part as well
+as whole hierarchy
+- This pattern creates a class that contains group of its own objects
+- Intention:
+  - Recursive composition
+  - It lets clients treat individual objects and compositions of objects uniformly
+- When to use: It should be used when clients need to ignore the difference between compositions
+of objects and individual objects and needs to handle them in the same way
+  
