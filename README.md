@@ -34,3 +34,14 @@ and delegate calls to methods of existing system classes
 - When to use: Needs a simplified interface to overall functionality of a complex subsystem
 
 
+### Bridge Design Pattern
+
+- It can be thought of as two layers of abstraction
+- It decouples an abstraction so two classes can vary independently, In short it converts "is a relation"
+to "has a relation"
+- Intention:
+  - Beyond encapsulation, to insulation
+  - Decouple an abstraction from its implementation so that the two can vary independently
+- When to use: To make functionalities of concrete classes independent of interface implementor
+classes,both types of classes can be altered structurally without affecting each other
+  
